@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Ethiopian Yirgacheffe",
+    "origin": "Ethiopia",
+    "notes": "Floral aroma with bright citrus undertones",
+    "image": "/images/ethiopian.jpg"
+  },
+  {
+    "name": "Colombian Supremo",
+    "origin": "Colombia",
+    "notes": "Rich body, chocolatey finish",
+    "image": "/images/colombian.jpg"
+  },
+  {
+    "name": "Kenyan AA",
+    "origin": "Kenya",
+    "notes": "Bold acidity, berry fruit notes",
+    "image": "/images/kenyan.jpg"
+  },
+  {
+    "name": "Sumatra Mandheling",
+    "origin": "Indonesia",
+    "notes": "Earthy, herbal, low acidity",
+    "image": "/images/sumatran.jpg"
+  },
+  {
+    "name": "Brazilian Santos",
+    "origin": "Brazil",
+    "notes": "Nutty, smooth, medium body",
+    "image": "/images/brazilian.jpg"
+  },
+  {
+    "name": "Guatemalan Antigua",
+    "origin": "Guatemala",
+    "notes": "Spicy, smoky, well‐balanced",
+    "image": "/images/guatemalan.jpg"
+  }
+]

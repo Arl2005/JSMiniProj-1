@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Explore Blends — Brewed Awakenings</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="logo">
+      <h1>Brewed Awakenings</h1>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="fetch.html" class="active">Explore Blends</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- HERO TEXT -->
+    <section class="hero-text">
+      <h2>Explore Our Exotic Blends</h2>
+      <p>Click below to load all our rare coffee selections.</p>
+    </section>
+
+    <!-- FETCH DEMO -->
+    <section class="featured">
+      <button id="loadBtn">Load Coffee Blends</button>
+      <div id="output" class="grid" style="margin-top:1.5rem;"></div>
+    </section>
+  </main>
+
+  <!-- front-end fetch logic -->
+  <script src="js/fetcher.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+/* ======= HEADER / NAV ======= */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.site-header .logo h1 {
+  font-size: 1.5rem;
+  color: #c05d5d;
+}
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+.site-nav a {
+  font-weight: 500;
+  color: #333;
+  padding: 0.25rem;
+  position: relative;
+}
+.site-nav a.active,
+.site-nav a:hover {
+  color: #c05d5d;
+}
+.site-nav a.active::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #c05d5d;
+  bottom: -4px;
+  left: 0;
+}
+
+/* ======= HERO TEXT ======= */
+.hero-text {
+  text-align: center;
+  margin: 3rem 0 2rem;
+}
+.hero-text h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.hero-text p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* ======= FEATURED BLEND ======= */
+.featured {
+  text-align: center;
+  padding: 2rem 0;
+  background: #fafafa;
+}
+.featured h2 {
+  margin-bottom: 1rem;
+}
+.featured-card {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.featured-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+/* ======= PROCESS GRID ======= */
+.process {
+  padding: 2rem 0;
+}
+.process h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 1.5rem;
+}
+.step {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.step h3 {
+  margin-bottom: 0.5rem;
+  color: #c05d5d;
+}
+.step p {
+  color: #555;
+  font-size: 0.95rem;
+}
